@@ -1,9 +1,9 @@
 /*Dataset*/
 data exp_design;
-array loc{5} (0.04 0.04 0.04 0.04 0.04);
+array loc{5} (0.01 0 0.03 0.015 0.02);
 array pr{4} (0.01 0 -0.01 -0.03);
-array exp{3} (0.01 0.01 0.03);
-array O{4} (-0.005 0.015 0.01 0.02);
+array exp{3} (0.02 0.01 0);
+array O{4} (0 00.01 0.02 0.04);
 do i=1 to 5;
 	do j=1 to 4;
 		do k=1 to 3;
